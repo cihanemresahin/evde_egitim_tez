@@ -15,7 +15,7 @@ public class ControlSender : MonoBehaviour
 {
     [Header("Cloud Relay")]
     [Tooltip("Relay sunucu adresi")]
-    public string relayUrl = "ws://localhost:3000/ws";
+    public string relayUrl = "wss://vr-relay-ricg.onrender.com/ws";
     [Tooltip("Oda kodu (RPi'den alınan 6 haneli kod)")]
     public string roomCode = "";
 

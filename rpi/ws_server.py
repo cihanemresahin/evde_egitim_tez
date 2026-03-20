@@ -20,7 +20,7 @@ import serial
 import websockets
 
 # ── AYARLAR ─────────────────────────────────────────────────────
-RELAY_URL    = os.environ.get("RELAY_URL", "ws://localhost:3000/ws?role=rpi")
+RELAY_URL    = os.environ.get("RELAY_URL", "wss://vr-relay-ricg.onrender.com/ws?role=rpi")
 SERIAL_PORT  = "/dev/ttyUSB0"
 BAUD_RATE    = 115200
 
