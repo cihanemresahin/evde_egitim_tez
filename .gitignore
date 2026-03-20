@@ -1,0 +1,38 @@
+# Unity
+Library/
+Temp/
+Logs/
+UserSettings/
+obj/
+Build/
+Builds/
+*.csproj
+*.sln
+*.pidb
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb.meta
+Assembly-CSharp*.dll
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Antigravity
+.gemini/
